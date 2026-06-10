@@ -1,0 +1,27 @@
+:root {
+  --bg: #0a0a0f;
+  --surface: #14141a;
+  --surface-raised: #1d1d24;
+  --border: #2a2a34;
+  --text: #f2f2f5;
+  --text-dim: #9a9aaa;
+  --text-muted: #5a5a68;
+  --accent: #00e5c0;
+  --accent-dim: #0bbfa3;
+  --danger: #d8354a;
+  --warning: #e09815;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+button { font-family: inherit; cursor: pointer; }
+input { font-family: inherit; }
